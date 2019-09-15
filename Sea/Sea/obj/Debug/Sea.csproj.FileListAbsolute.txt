@@ -1,0 +1,15 @@
+D:\Programs\Visual\Results#\Sea\Sea\bin\Debug\Sea.exe.config
+D:\Programs\Visual\Results#\Sea\Sea\bin\Debug\Sea.exe
+D:\Programs\Visual\Results#\Sea\Sea\bin\Debug\Sea.pdb
+D:\Programs\Visual\Results#\Sea\Sea\obj\Debug\Sea.csprojAssemblyReference.cache
+D:\Programs\Visual\Results#\Sea\Sea\obj\Debug\MainWindow.g.cs
+D:\Programs\Visual\Results#\Sea\Sea\obj\Debug\App.g.cs
+D:\Programs\Visual\Results#\Sea\Sea\obj\Debug\Sea_MarkupCompile.cache
+D:\Programs\Visual\Results#\Sea\Sea\obj\Debug\Sea_MarkupCompile.lref
+D:\Programs\Visual\Results#\Sea\Sea\obj\Debug\MainWindow.baml
+D:\Programs\Visual\Results#\Sea\Sea\obj\Debug\Sea.g.resources
+D:\Programs\Visual\Results#\Sea\Sea\obj\Debug\Sea.Properties.Resources.resources
+D:\Programs\Visual\Results#\Sea\Sea\obj\Debug\Sea.csproj.GenerateResource.cache
+D:\Programs\Visual\Results#\Sea\Sea\obj\Debug\Sea.csproj.CoreCompileInputs.cache
+D:\Programs\Visual\Results#\Sea\Sea\obj\Debug\Sea.exe
+D:\Programs\Visual\Results#\Sea\Sea\obj\Debug\Sea.pdb
