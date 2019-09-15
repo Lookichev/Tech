@@ -1,0 +1,58 @@
+﻿<Window x:Class="Money.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Money"
+        mc:Ignorable="d"
+        Title="MainWindow" Width="700" Height="600">
+    <Grid>
+        <!--#region Деление таблицы-->
+        <Grid.RowDefinitions>
+            <!--Поле настройки периода-->
+            <RowDefinition Height="Auto"/>
+            <!--Поле настройки валюты и кнопка-->
+            <RowDefinition Height="Auto"/>
+            <!--Картинка-->
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <!--#endregion-->
+
+        <!--Установка начальной границы периода-->
+        <StackPanel Margin="50,0,0,0" Orientation="Horizontal" Grid.Row="0" Grid.Column="0">
+            <Label Content="Период с:"/>
+            <TextBox Name="_FromDay" Width="30" HorizontalContentAlignment="Center" 
+                     Margin="0,0,5,0" MaxLength="2"></TextBox>
+            <TextBox Name ="_FromMonth" Width="30" HorizontalContentAlignment="Center" 
+                     Margin="0,0,5,0" MaxLength="2"></TextBox>
+            <TextBox Name="_FromYear" Width="80" HorizontalContentAlignment="Center" 
+                     Margin="0,0,5,0" MaxLength="4"></TextBox>
+        </StackPanel>
+
+        <!--Установка конечной границы периода-->
+        <StackPanel Margin="50,0,0,0" Orientation="Horizontal" Grid.Row="0" Grid.Column="1">
+            <Label Content="по:"/>
+            <TextBox Name="_ToDay" Width="30" HorizontalContentAlignment="Center" 
+                     Margin="0,0,5,0" MaxLength="2"/>
+            <TextBox Name ="_ToMonth" Width="30" HorizontalContentAlignment="Center" 
+                     Margin="0,0,5,0" MaxLength="2"/>
+            <TextBox Name="_ToYear" Width="80" HorizontalContentAlignment="Center" 
+                     Margin="0,0,5,0" MaxLength="4"/>
+        </StackPanel>
+        
+        <!--Выбор валюты-->
+        <Label Content="Выбор валюты:" Margin="50,0,0,0" Grid.Row="1" Grid.Column="0"/>
+        <ComboBox Margin="150, 0, 10, 0" Name="_CurrencySelector" Grid.Row="1" Grid.Column="0"/>
+        <!--Кнопка загрузки и отображения изображения-->
+        <Button Width="120" Name="_ShowButton" Grid.Row="1" Grid.Column="1" Click="_ShowButton_Click">Отобразить</Button>
+        
+        <!--Поле отображения графика-->
+        <Image Name="_ImageBox" Width="600" Height="400" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+        <Label Name="_ErrorLabel" Width="350" Height="50" Grid.Row="2" Grid.Column="0" 
+               Grid.ColumnSpan="2" HorizontalContentAlignment="Center" Margin="172,120,172,348" Visibility="Collapsed"/>
+    </Grid>
+</Window>

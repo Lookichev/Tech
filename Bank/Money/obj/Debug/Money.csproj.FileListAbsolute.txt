@@ -1,0 +1,15 @@
+D:\Programs\Visual\Results#\Money\Money\bin\Debug\Money.exe.config
+D:\Programs\Visual\Results#\Money\Money\bin\Debug\Money.exe
+D:\Programs\Visual\Results#\Money\Money\bin\Debug\Money.pdb
+D:\Programs\Visual\Results#\Money\Money\obj\Debug\Money.csprojAssemblyReference.cache
+D:\Programs\Visual\Results#\Money\Money\obj\Debug\MainWindow.g.cs
+D:\Programs\Visual\Results#\Money\Money\obj\Debug\App.g.cs
+D:\Programs\Visual\Results#\Money\Money\obj\Debug\Money_MarkupCompile.cache
+D:\Programs\Visual\Results#\Money\Money\obj\Debug\Money_MarkupCompile.lref
+D:\Programs\Visual\Results#\Money\Money\obj\Debug\MainWindow.baml
+D:\Programs\Visual\Results#\Money\Money\obj\Debug\Money.g.resources
+D:\Programs\Visual\Results#\Money\Money\obj\Debug\Money.Properties.Resources.resources
+D:\Programs\Visual\Results#\Money\Money\obj\Debug\Money.csproj.GenerateResource.cache
+D:\Programs\Visual\Results#\Money\Money\obj\Debug\Money.csproj.CoreCompileInputs.cache
+D:\Programs\Visual\Results#\Money\Money\obj\Debug\Money.exe
+D:\Programs\Visual\Results#\Money\Money\obj\Debug\Money.pdb

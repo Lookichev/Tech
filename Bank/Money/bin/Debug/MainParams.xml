@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Params>
+  <Base Uri="https://www.cbr.ru"/>
+  <Uri BasePart="https://www.cbr.ru/currency_base/dynamics/?UniDbQuery.Posted=Truep#pUniDbQuery.mode=2p#pUniDbQuery.date_req1=p#pUniDbQuery.date_req2=p#pUniDbQuery.VAL_NM_RQ=R0"
+       CurrencyPart="p#pUniDbQuery.FromDate=" ExtraPart="p#pUniDbQuery.ToDate="/>
+  <Pattern String ="/Queries/UniDbQuery/GenerateChart[\s\S]*grafIndex=0" />
+  <!--Первая часть соединяется 4 цифрами кода валюты. Остальные части соединяются датами по типу "00.00.0000", 
+  заменить текст "p#p" во всей ссылке на "&" ибо сохранить амперсанд в разметке нельзя - он указывает на переменную-->
+</Params>
